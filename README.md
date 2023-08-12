@@ -1,5 +1,5 @@
 # weather-app
-- made with HTMl, CSS and Vanilla JS
+- made with HTML, CSS and Vanilla JS
 - purpose of this project is to learn async functions and APIs
 - understand how to use callbacks, Promises
 - practice async and await
