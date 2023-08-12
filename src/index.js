@@ -3,7 +3,6 @@ import { displayController } from "./displayController";
 import "./style.css";
 import "./switch.css";
 import searchIconImage from "./img/search_icon.svg";
-
 let unit = "C";
 const searchIcon = document.getElementById("search-icon");
 const toggleSwitch = document.querySelector(".switch-checkbox");

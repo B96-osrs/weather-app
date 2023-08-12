@@ -2,13 +2,25 @@
   box-sizing: border-box;
 }
 body {
-  background-image: none;
+  background-size: cover;
+  background-attachment: fixed;
   margin: 0;
+}
+.main-container {
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+  height: 100vh;
 }
 
 #search-icon {
   width: 24px;
   height: 24px;
+}
+
+img {
+  width: 100px;
+  height: 100px;
 }
 
 .header {
@@ -23,4 +35,54 @@ body {
   align-items: center;
   margin-left: auto;
   gap: 12px;
+}
+
+.content {
+  width: minmax(60%, 600px);
+  height: minmax(50%, 360px);
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  gap: 1rem;
+  padding: 2rem;
+  font-size: 20px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.705);
+  border-radius: 1rem;
+}
+
+.box-1 {
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.box-1 div:nth-child(1) {
+  font-size: 2rem;
+}
+.box-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 4rem;
+}
+
+.box-3 {
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.footer {
+  background-color: rgba(0, 0, 0, 0.9);
+  padding: 0.7em;
+  display: flex;
+  margin-top: auto;
+  justify-content: center;
+  color: white;
+  font-size: 1em;
+}
+a:visited {
+  color: rgb(197, 197, 197);
 }
