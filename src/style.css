@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-image: none;
+  margin: 0;
+}
+
+#search-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.header {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.705);
+  height: 3rem;
+  padding: 24px;
+}
+
+#search {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  gap: 12px;
+}
