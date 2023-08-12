@@ -1,7 +1,7 @@
 const Weather = (function () {
   async function fetchData(region) {
     const response =
-      await fetch(`http://api.weatherapi.com/v1/current.json?key=27136f6df35e4ca398405149231208&q=${region}&aqi=yes
+      await fetch(`https://api.weatherapi.com/v1/current.json?key=27136f6df35e4ca398405149231208&q=${region}&aqi=yes
       `);
     const weatherData = await response.json();
     console.log(weatherData);
