@@ -17,6 +17,12 @@ body {
   width: 24px;
   height: 24px;
 }
+#search-input {
+  height: 1.6rem;
+  border-radius: 0.5rem;
+  outline-style: none;
+  border-style: none;
+}
 
 img {
   width: 100px;
